@@ -1,0 +1,36 @@
+{
+  "name": "demo-sequence-kit-snake-game",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "0xsequence": "^1.9.32",
+    "@0xsequence/kit": "^2.8.7",
+    "@0xsequence/kit-connectors": "^2.8.7",
+    "@tanstack/react-query": "^5.48.0",
+    "ethers": "5.7.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-simple-snake": "github:moskalyk/react-simple-snake#config-callback",
+    "viem": "^2.16.2",
+    "wagmi": "^2.10.7"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^7.13.1",
+    "@typescript-eslint/parser": "^7.13.1",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.1"
+  }
+}
