@@ -15,15 +15,16 @@ const queryClient = new QueryClient()
 const chains: readonly [Chain, ...Chain[]] = [arbitrumNova as Chain, arbitrumSepolia as Chain, mainnet as Chain, polygon as Chain]
  
 // replace with your keys, and better to use env vars
-const projectAccessKey = 'AQAAAAAAAD5wFB4u9zKn_J0K8fOzZmCZwRY' // Demo access key - switch to yours
-const waasConfigKey = 'eyJwcm9qZWN0SWQiOjE1OTg0LCJycGNTZXJ2ZXIiOiJodHRwczovL3dhYXMuc2VxdWVuY2UuYXBwIn0=' // Pass in your waasConfigKey
-const googleClientId = '908369456253-9ki3cl7bauhhu61hgtb66c1ioo0u2n24.apps.googleusercontent.com' // Pass in your Google Client ID
+const projectAccessKey = process.env.VITE_PROJECT_ACCESS_KEY!
+const waasConfigKey = process.env.VITE_WAAS_CONFIG_KEY!
+const googleClientId = process.env.VITE_GOOGLE_CLIENT_ID!
+const walletConnectId = process.env.VITE_WALLET_CONNECT_PROJECT_ID!
  
 function Dapp() {
  
 const connectors = [
   ...getDefaultWaasConnectors({
-    walletConnectProjectId: '458215b98fce3f9f700f2c233b932ae1',
+    walletConnectProjectId: walletConnectId,
     enableConfirmationModal: false, // Optional confirmation modal - can update this dynamically on your application using local storage or set a default property 
     defaultChainId: 42170,
     waasConfigKey,
