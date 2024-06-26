@@ -5,12 +5,8 @@
   text-align: center;
 }
 
-.main {
-  margin-top: 400px;
-}
-
 #GameBoard {
-  margin-top: 1000px;
+  margin-top: 0px !important;
 }
 
 .logo {
@@ -47,4 +43,49 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.sign-in {
+  background-color: #7537f9;
+  font-weight: 500;
+  height: 40px;
+  width: 100px;
+  border-radius: 20px;
+  color: white;
+  border: 0px;
+  cursor: pointer;
+}
+
+.sign-in:hover {
+  background-color: #8d5cf8;
+  font-weight: 500;
+  height: 40px;
+  width: 100px;
+  border-radius: 20px;
+  color: white;
+  border: 0px;
+  cursor: pointer;
+}
+
+
+.container {
+  margin-top: 300px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  word-wrap: break-word;
+  padding: 10px;
+  position: absolute; /* Positioning the element */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centers the div */
+}
+
+.signature-container {
+  width: 800px;
+  word-wrap: break-word; /* Ensures that words break to prevent overflow */
+  padding: 10px;
+  border: 1px solid #ccc; /* Just for visibility, can be customized */
 }

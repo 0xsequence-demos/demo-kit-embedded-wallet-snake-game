@@ -31,7 +31,7 @@ importers:
         version: 18.3.1(react@18.3.1)
       react-simple-snake:
         specifier: github:moskalyk/react-simple-snake#config-callback
-        version: https://codeload.github.com/moskalyk/react-simple-snake/tar.gz/4164fcd531e47fed7865c2e191e085ff05d109f1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: https://codeload.github.com/moskalyk/react-simple-snake/tar.gz/a8b4a8ed476ba3713d47af81a6eb38e295656a56(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       viem:
         specifier: ^2.16.2
         version: 2.16.2(bufferutil@4.0.8)(typescript@5.5.2)
@@ -4620,8 +4620,8 @@ packages:
     peerDependencies:
       react: ^16.0.0 || ^17.0.0 || ^18.0.0
 
-  react-simple-snake@https://codeload.github.com/moskalyk/react-simple-snake/tar.gz/4164fcd531e47fed7865c2e191e085ff05d109f1:
-    resolution: {tarball: https://codeload.github.com/moskalyk/react-simple-snake/tar.gz/4164fcd531e47fed7865c2e191e085ff05d109f1}
+  react-simple-snake@https://codeload.github.com/moskalyk/react-simple-snake/tar.gz/a8b4a8ed476ba3713d47af81a6eb38e295656a56:
+    resolution: {tarball: https://codeload.github.com/moskalyk/react-simple-snake/tar.gz/a8b4a8ed476ba3713d47af81a6eb38e295656a56}
     version: 0.2.3
     peerDependencies:
       react: ^17.0.1
@@ -11670,7 +11670,7 @@ snapshots:
       react: 18.3.1
       react-is: 18.3.1
 
-  react-simple-snake@https://codeload.github.com/moskalyk/react-simple-snake/tar.gz/4164fcd531e47fed7865c2e191e085ff05d109f1(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  react-simple-snake@https://codeload.github.com/moskalyk/react-simple-snake/tar.gz/a8b4a8ed476ba3713d47af81a6eb38e295656a56(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)

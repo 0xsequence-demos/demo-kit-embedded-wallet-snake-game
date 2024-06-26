@@ -3,12 +3,11 @@ import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 import './index.css'
 
-
 import { sequence } from '0xsequence'
 import { KitConfig, KitProvider } from '@0xsequence/kit'
 import { getDefaultWaasConnectors } from '@0xsequence/kit-connectors' // Adding Embedded Wallet Config
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
-import { WagmiProvider, WagmiConfig, createConfig, http } from 'wagmi'
+import { WagmiConfig, createConfig, http } from 'wagmi'
 import { Chain, arbitrumNova, arbitrumSepolia, mainnet, polygon } from 'wagmi/chains'
  
 const queryClient = new QueryClient()
